@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="3.0" 
+	xmlns="http://java.sun.com/xml/ns/javaee" 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee 
+	http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd">
+  <display-name></display-name>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>UserLogin</servlet-name>
+    <servlet-class>com.controller.UserLogin</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>UserAdd</servlet-name>
+    <servlet-class>com.controller.UserAdd</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>SelectUser</servlet-name>
+    <servlet-class>com.controller.SelectUser</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>DelEmail</servlet-name>
+    <servlet-class>com.controller.DelEmail</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>EnterEmail</servlet-name>
+    <servlet-class>com.controller.EnterEmail</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>updateEmail</servlet-name>
+    <servlet-class>com.controller.insertEmail</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Synchronous</servlet-name>
+    <servlet-class>com.controller.Synchronous</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>goindex</servlet-name>
+    <servlet-class>com.controller.goindex</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>SetState</servlet-name>
+    <servlet-class>com.controller.SetState</servlet-class>
+  </servlet>
+
+
+
+
+
+
+
+
+
+  <servlet-mapping>
+    <servlet-name>UserLogin</servlet-name>
+    <url-pattern>/servlet/UserLogin</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>UserAdd</servlet-name>
+    <url-pattern>/servlet/UserAdd</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>SelectUser</servlet-name>
+    <url-pattern>/servlet/SelectUser</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DelEmail</servlet-name>
+    <url-pattern>/servlet/DelEmail</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>EnterEmail</servlet-name>
+    <url-pattern>/servlet/EnterEmail</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>updateEmail</servlet-name>
+    <url-pattern>/servlet/insertEmail</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Synchronous</servlet-name>
+    <url-pattern>/servlet/Synchronous</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>goindex</servlet-name>
+    <url-pattern>/servlet/goindex</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>SetState</servlet-name>
+    <url-pattern>/servlet/SetState</url-pattern>
+  </servlet-mapping>	
+  <welcome-file-list>
+    <welcome-file>index.jsp</welcome-file>
+  </welcome-file-list>
+</web-app>
